@@ -1,0 +1,12 @@
+it
+POST http://localhost:8080/api/threats
+Content-Type: application/json
+
+{
+  "title": "Brute Force Login Attack",
+  "description": "Multiple failed login attempts detected from a single source IP address.",
+  "severity": "HIGH",
+  "source": "Authentication Logs",
+  "status": "OPEN",
+  "createdAt": "2026-09-11T21:40:00"
+}
